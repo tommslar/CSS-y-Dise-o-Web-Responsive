@@ -80,6 +80,22 @@ header nav a {
 	height: 25%;
 }
 
+#firstRow img:nth-child(1) {
+	filter: blur(10px);
+}
+
+#firstRow img:nth-child(3) {
+	filter: sepia(90%);
+}
+
+#firstRow img:nth-child(even) {
+	filter: grayscale(100%);
+}
+
+#secondRow img:nth-child(odd) {
+	filter: grayscale(100%);
+}
+
 footer {
 	background-color:  #C6d5c5;
 	border-radius: 0px 0px 10px 10px;
