@@ -1,0 +1,124 @@
+body {
+	font-family: 'Dancing Script', cursive;
+	background-color:  #02010a;
+}
+
+header {
+	background-color: #5b7989;
+	border-radius: 10px 10px 0px 0px;
+	height: 5em;
+}
+
+header h1 {
+	float: left;
+	color: white;
+	text-shadow: 2px 0px #02010a;
+	margin-left: 1em;
+}
+
+header nav {
+	float: right;
+	margin: 2em 2em 0em 0em;
+	word-spacing: 2em;
+}
+
+header nav a {
+	letter-spacing: 0.4em;
+}
+
+.actual {
+	 text-decoration: none;
+}
+
+#contenido {
+	clear: both;
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+.contenedor {
+	display: flex;
+	justify-content: space-around;
+}
+
+#central {
+	background-color: #82c3a6;
+	margin: 0 auto;
+	padding: 1em;
+	width: 94%;
+}
+
+#central .contenedor img {
+	width: 100%;
+}
+
+
+#secundaria .contenedor a {
+	width: 47%;
+	background-color: #d5c75f;
+	border: 1px solid #d5c75f;
+}
+
+#secundaria .contenedor a:hover {	
+	border: 2px solid #d5c75f;
+}
+
+#izquierda:hover{
+	transform: rotate(10deg);
+}
+
+#derecha:hover{
+	transform: translate(20px,-5px);
+}
+
+#secundaria .contenedor a img {
+	width: 100%;
+}
+
+footer {
+	background-color:  #C6d5c5;
+	border-radius: 0px 0px 10px 10px;
+}
+
+footer .contenedor div p {
+	
+}
+
+@media screen and (max-width: 900px){
+
+
+	header h1 {
+	float: none;
+	text-align: center;
+	padding-top: 0.5em;
+	margin-left: 0em;
+	}
+
+	header nav {
+		display: none;
+	}
+
+	#central {
+		width: 91%;
+	}
+
+	#contenido {
+	max-width: 100%;
+	}
+
+	#secundaria .contenedor a {
+		width: 98%;
+		margin: 0 auto;
+		margin-bottom: 1em;
+	}
+
+	.contenedor  {
+		flex-direction: column;
+	}
+
+	footer .contenedor{
+	 	text-align: center;
+	}
+}
+
+
