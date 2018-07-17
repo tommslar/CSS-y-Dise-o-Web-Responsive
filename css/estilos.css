@@ -75,14 +75,16 @@ header nav a {
 	width: 100%;
 }
 
+#galeria .contenedor img{
+	width: 25%;
+	height: 25%;
+}
+
 footer {
 	background-color:  #C6d5c5;
 	border-radius: 0px 0px 10px 10px;
 }
 
-footer .contenedor div p {
-	
-}
 
 @media screen and (max-width: 900px){
 
@@ -114,6 +116,12 @@ footer .contenedor div p {
 
 	.contenedor  {
 		flex-direction: column;
+	}
+
+	#galeria .contenedor img{
+		width: 98%;
+		margin: 0 auto;
+		margin-bottom: 1em;
 	}
 
 	footer .contenedor{
